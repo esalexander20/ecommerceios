@@ -1,0 +1,30 @@
+{
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/DesignSystem.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DesignSystem.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DesignSystem.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DesignSystem.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DesignSystem.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DesignSystem.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/Spacing.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Spacing.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Spacing.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Spacing.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Spacing.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Spacing.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/Typography.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Typography.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Typography.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Typography.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Typography.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Typography.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Utilities/Extensions/CombineExtensions.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CombineExtensions.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CombineExtensions.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CombineExtensions.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CombineExtensions.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CombineExtensions.swiftdeps"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/ContentView.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ContentView.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/EcommerceApp.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/EcommerceApp.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/EcommerceApp.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/EcommerceApp.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/EcommerceApp.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/EcommerceApp.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Utilities/Extensions/Extensions.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Extensions.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Extensions.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Extensions.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Extensions.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Extensions.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
+  }
+}

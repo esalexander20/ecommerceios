@@ -1,0 +1,24 @@
+{
+  "source": "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/Spacing.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Corner Radius Examples",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shadow Examples",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 209
+        }
+      }
+    ]
+  },
+  "version": 1
+}

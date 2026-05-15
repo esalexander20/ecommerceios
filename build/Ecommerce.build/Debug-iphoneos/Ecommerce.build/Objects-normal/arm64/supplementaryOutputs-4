@@ -1,0 +1,37 @@
+{
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Data/Persistence/CoreDataExtensions.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CoreDataExtensions.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CoreDataExtensions.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CoreDataExtensions.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CoreDataExtensions.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/CoreDataExtensions.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Data/Persistence/Models/Product+CoreDataClass.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Product+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Product+CoreDataClass.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Product+CoreDataClass.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Product+CoreDataClass.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Product+CoreDataClass.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Data/Persistence/Models/User+CoreDataClass.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/User+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/User+CoreDataClass.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/User+CoreDataClass.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/User+CoreDataClass.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/User+CoreDataClass.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Data/Persistence/Persistence.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Persistence.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Persistence.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Persistence.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Persistence.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Persistence.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Data/Persistence/PersistenceNamespace.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/PersistenceNamespace.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/PersistenceNamespace.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/PersistenceNamespace.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/PersistenceNamespace.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/PersistenceNamespace.swiftdeps"
+  }
+}

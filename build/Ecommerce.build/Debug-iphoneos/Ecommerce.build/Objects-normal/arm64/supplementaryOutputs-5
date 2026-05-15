@@ -1,0 +1,30 @@
+{
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Domain/Entities/DataState.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DataState.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DataState.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DataState.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DataState.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/DataState.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Domain/Entities/Entities.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Entities.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Entities.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Entities.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Entities.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Entities.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Domain/Entities/ViewState.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ViewState.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ViewState.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ViewState.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ViewState.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/ViewState.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/Components/Buttons.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Buttons.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Buttons.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Buttons.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Buttons.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Buttons.swiftdeps"
+  }
+}

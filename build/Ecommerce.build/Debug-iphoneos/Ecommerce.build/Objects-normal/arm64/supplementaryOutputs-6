@@ -1,0 +1,30 @@
+{
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/Components/Components.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Components.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Components.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Components.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Components.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Components.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/Components/InputField.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/InputField.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/InputField.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/InputField.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/InputField.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/InputField.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/Components/Loaders.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Loaders.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Loaders.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Loaders.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Loaders.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Loaders.swiftdeps"
+  },
+  "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/Colors.swift" : {
+    "const-values" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Colors.swiftconstvalues",
+    "dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Colors.d",
+    "diagnostics" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Colors.dia",
+    "object" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Colors.o",
+    "swift-dependencies" : "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/build/Ecommerce.build/Debug-iphoneos/Ecommerce.build/Objects-normal/arm64/Colors.swiftdeps"
+  }
+}

@@ -12,61 +12,76 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Product.name, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
+    private var products: FetchedResults<Product>
 
     var body: some View {
         NavigationView {
             List {
-                ForEach(items) { item in
+                ForEach(Array(products), id: \.objectID) { product in
                     NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        ProductDetailView(product: product)
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                        VStack(alignment: .leading) {
+                            Text(product.name ?? "Unknown Product")
+                                .font(AppFont.titleMedium(weight: .medium))
+                            Text("$ \(product.price)")
+                                .font(AppFont.bodySmall())
+                                .foregroundColor(AppColor.primary)
+                        }
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .onDelete { indices in
+                    deleteProducts(at: indices)
+                }
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button(action: addProduct) {
+                        Label("Add Product", systemImage: "plus")
                     }
                 }
             }
-            Text("Select an item")
+            if products.isEmpty {
+                Text("No products available")
+                    .foregroundColor(AppColor.textSecondary)
+                    .padding()
+            }
         }
+        .navigationTitle("Products")
     }
 
-    private func addItem() {
+    private func addProduct() {
         withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            let newProduct = Product(context: viewContext)
+            newProduct.id = UUID().uuidString
+            newProduct.name = "New Product"
+            newProduct.price = NSDecimalNumber(value: 0.0)
+            newProduct.category = "Uncategorized"
+            newProduct.createdAt = Date()
+            newProduct.updatedAt = Date()
 
             do {
                 try viewContext.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deleteProducts(at offsets: IndexSet) {
         withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
+            let arrayProducts = Array(products)
+            offsets.map { arrayProducts[$0] }.forEach(viewContext.delete)
 
             do {
                 try viewContext.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
@@ -74,13 +89,25 @@ struct ContentView: View {
     }
 }
 
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
+// MARK: - Preview
 
 #Preview {
     ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+}
+
+// MARK: - Placeholder View (will be implemented in Product feature)
+
+struct ProductDetailView: View {
+    let product: Product
+
+    var body: some View {
+        VStack {
+            Text(product.name ?? "Product Detail")
+                .font(AppFont.titleLarge(weight: .medium))
+            Text("Price: $ \(product.price)")
+                .font(AppFont.bodyMedium())
+        }
+        .padding()
+        .navigationTitle(product.name ?? "Details")
+    }
 }

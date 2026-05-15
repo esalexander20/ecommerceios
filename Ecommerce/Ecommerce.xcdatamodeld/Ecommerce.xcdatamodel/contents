@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    <entity name="Product" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="name" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="productDescription" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="price" optional="NO" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="category" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="images" optional="YES" attributeType="Transformable" usesScalarValueType="NO"/>
+        <attribute name="stockQuantity" optional="NO" attributeType="Integer 32" usesScalarValueType="NO" defaultValueString="0"/>
+        <attribute name="rating" optional="YES" attributeType="Double" usesScalarValueType="NO" defaultValueString="0.0"/>
+        <attribute name="isFeatured" optional="YES" attributeType="Boolean" usesScalarValueType="NO" defaultValueString="NO"/>
+        <attribute name="isOnSale" optional="YES" attributeType="Boolean" usesScalarValueType="NO" defaultValueString="NO"/>
+        <attribute name="salePrice" optional="YES" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="brand" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="sku" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Cart" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="productId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="quantity" optional="NO" attributeType="Integer 32" usesScalarValueType="NO" defaultValueString="1"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Order" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="orderNumber" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="totalAmount" optional="NO" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="subtotal" optional="YES" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="taxAmount" optional="YES" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="shippingAmount" optional="YES" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="discountAmount" optional="YES" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="status" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="paymentMethod" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="paymentStatus" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="shippingMethod" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="trackingNumber" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="OrderItem" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="orderId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="productId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="quantity" optional="NO" attributeType="Integer 32" usesScalarValueType="NO" defaultValueString="1"/>
+        <attribute name="price" optional="NO" attributeType="Decimal" usesScalarValueType="NO"/>
+        <attribute name="productName" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="productImage" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="User" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="phone" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="profileImage" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gender" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastLoginAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Address" syncable="YES" >
+        <attribute name="id" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String" usesScalarValueType="NO" indexOnDelete="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="street" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="city" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="state" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="zipCode" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="country" optional="NO" attributeType="String" usesScalarValueType="NO" defaultValueString="USA"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" usesScalarValueType="NO" defaultValueString="NO"/>
+        <attribute name="addressType" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Product" positionX="100" positionY="100" width="128" height="100"/>
+        <element name="Cart" positionX="300" positionY="100" width="128" height="60"/>
+        <element name="Order" positionX="100" positionY="250" width="128" height="100"/>
+        <element name="OrderItem" positionX="300" positionY="250" width="128" height="60"/>
+        <element name="User" positionX="100" positionY="400" width="128" height="80"/>
+        <element name="Address" positionX="300" positionY="400" width="128" height="80"/>
     </elements>
 </model>

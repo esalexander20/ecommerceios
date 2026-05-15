@@ -1,0 +1,16 @@
+{
+  "source": "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/Components/Loaders.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Skeleton Loaders",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 423
+        }
+      }
+    ]
+  },
+  "version": 1
+}

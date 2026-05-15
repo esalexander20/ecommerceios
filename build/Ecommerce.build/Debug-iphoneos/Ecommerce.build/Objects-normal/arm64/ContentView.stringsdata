@@ -1,0 +1,48 @@
+{
+  "source": "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Products",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "No products available",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "$ %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Product",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Price: $ %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 107
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "source": "/Users/developer/Documents/XcodeProjects/Assistent/Ecommerce/Ecommerce/Presentation/Shared/DesignSystem/Typography.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Display Large",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Display Medium",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Display Small",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Headline Large",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Headline Medium",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Headline Small",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title Large",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title Medium",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title Small",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Body Large",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Body Medium",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Body Small",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Label Large",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Label Medium",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Label Small",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 167
+        }
+      }
+    ]
+  },
+  "version": 1
+}
