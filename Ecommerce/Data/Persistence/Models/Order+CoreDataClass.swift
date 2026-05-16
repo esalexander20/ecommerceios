@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 
 @objc(Order)
-public class Order: NSManagedObject {
+public class Order: NSManagedObject, Identifiable {
 
 }
 
