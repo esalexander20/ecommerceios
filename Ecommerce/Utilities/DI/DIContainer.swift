@@ -23,6 +23,8 @@ public final class DIContainer: DIContainerProtocol {
         // Initialize all lazy dependencies
         _ = apiClient
         _ = persistenceController
+        _ = router
+        _ = appCoordinator
         _ = productRepository
     }
 
@@ -52,6 +54,20 @@ public final class DIContainer: DIContainerProtocol {
     }()
 
     public var persistenceController: PersistenceController { return _persistenceController }
+
+    // MARK: - Navigation
+
+    private lazy var _router: any RouterProtocol = {
+        return Navigation.navigator
+    }()
+
+    public var router: any RouterProtocol { return _router }
+
+    private lazy var _appCoordinator: AppCoordinator = {
+        return AppCoordinator(router: router, diContainer: self)
+    }()
+
+    public var appCoordinator: AppCoordinator { return _appCoordinator }
 
     // MARK: - Repositories
 

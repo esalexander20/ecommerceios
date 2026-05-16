@@ -17,6 +17,10 @@ public protocol DIContainerProtocol {
     /// Persistence
     var persistenceController: PersistenceController { get }
 
+    /// Navigation
+    var router: any RouterProtocol { get }
+    var appCoordinator: AppCoordinator { get }
+
     /// Repositories
     var productRepository: any ProductRepositoryProtocol { get }
     var cartRepository: any CartRepositoryProtocol { get }
